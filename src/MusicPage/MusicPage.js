@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import logoAzul from '../images/LogoAzul.svg';
 import seta from '../images/Seta.svg';
+import Botao from '../componentes/Botao';
 import lupa from '../images/LupaBranca.svg';
 import './/styleMP.css'
 
@@ -29,7 +30,7 @@ function MusicPage() {
   return (
     <body className="MP">
 
-      <img id="logoMP" src={logoAzul} />
+      <img id="logoMP" onClick={novaBusca} src={logoAzul} />
 
       <h1 id="VoltarBusca" onClick={novaBusca}><img src={seta} />Voltar para a busca</h1>
 
@@ -39,7 +40,8 @@ function MusicPage() {
 
       <h2 id="fraseMP">Curtiu? busque mais letras.</h2>
 
-      <button id="botaoMP" onClick={novaBusca}><img src={lupa} /> Nova busca</button>
+     
+      <Botao ident='botaoMP' texto = 'Nova Busca'/>
 
     </body>)
 

@@ -32,8 +32,8 @@ function Historico() {
     const [musica, setMusica] = useState(0);
 
     useEffect(() => {
-      console.log(musica.art);
-      console.log(musica.nameSong);
+      //console.log(musica.art);
+      //console.log(musica.nameSong);
       if (musica.art != null) {
         criaHistorico(musica);
         navigate('/MusicPage');

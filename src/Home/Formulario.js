@@ -8,7 +8,7 @@ function Formulario() {
     try {
       const resposta = await fetch(`https://api.vagalume.com.br/search.php?apikey={660a4395f992ff67786584e238f501aa}&art=${singer}&mus=${song}`)
       const dados = await resposta.json();
-      console.log(dados)
+      //console.log(dados)
       validacaoDados(dados)
       return dados;
     } catch (erro) {
