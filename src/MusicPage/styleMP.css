@@ -1,0 +1,107 @@
+.MP {
+    position: absolute;
+    width: 100vw;
+    height: fit-content;
+
+    background: white;
+
+    font-family: 'Open Sans';
+    font-style: large;
+
+}
+
+
+#logoMP {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+#VoltarBusca {
+    color: #219EBC;
+    position: absolute;
+    top: 60px;
+    left: 1000px;
+}
+
+#nomeMP {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#letraMP {
+    text-align: center;
+    position: relative;
+    text-align: left;
+    top: 150px;
+    left: 550px;
+
+    max-width: 500px;
+}
+
+#fraseMP {
+    text-align: center;
+    position: relative;
+    top: 170px;
+
+}
+
+#botaoMP {
+    background-color: #219EBC;
+    color: #ffffff;
+    border-bottom: #ffffff;
+
+    position: relative;
+    top: 180px;
+    left: 600px;
+
+}
+
+@media only screen and (max-width : 768px) {
+    #logoMP {
+        position: absolute;
+        top: 80px;
+        left: 250px;
+    }
+
+    #VoltarBusca {
+        color: #219EBC;
+        position: absolute;
+        top: 120px;
+        left: 250px;
+    }
+
+    #nomeMP {
+        text-align: center;
+        position: relative;
+        top: 180px;
+    }
+
+    #letraMP {
+        text-align: center;
+        position: relative;
+        text-align: left;
+        top: 200px;
+        left: 250px;
+
+        max-width: 500px;
+    }
+
+    #fraseMP {
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+
+    #botaoMP {
+        background-color: #219EBC;
+        color: #ffffff;
+        border-bottom: #ffffff;
+
+        position: relative;
+        top: 220px;
+        left: 350px;
+
+    }
+}

@@ -1,0 +1,85 @@
+
+
+.SearchResult{
+    
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: large;
+
+}
+
+#logo{
+    position: relative;
+    top: 110px;
+}
+
+#titulo{
+    position: relative;
+    top: 130px;
+    color: white;
+}
+
+.resultado{
+    position: relative;
+    top: 170px;
+    left: 430px;
+    color: white;
+
+    justify-content: center;
+    border: 2px solid #219EBC;
+    background-color: #219EBC;
+    width: 345px;
+    height: 120px;
+
+}
+
+#frase{
+    position: relative;
+    top: 210px;
+    color: white;
+}
+
+#botaoSR{
+    position: relative;
+    top: 230px;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    background-color: transparent;
+    border: 1px solid #FFB703;
+    color: #FFB703;
+}
+
+@media only screen and (max-width : 768px) {
+
+
+#logo{
+    position: relative;
+    top: 150px;
+}
+
+#titulo{
+    position: relative;
+    top: 200px;
+    color: white;
+}
+.resultado{
+    position: relative;
+    left: 200px;
+    top: 250px;
+}
+
+#frase{
+    position: relative;
+    top: 300px;
+   
+}
+
+#botaoSR{
+    position: relative;
+    top: 350px;
+}
+}

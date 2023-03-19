@@ -1,0 +1,150 @@
+/*
+- Todas as cores utilizadas dentro do projeto:
+    - Cor “Preta”: `#000000`
+    - Cor “Azul escuro”: `#023047`
+    - Cor “Azul claro”: `#219EBC`
+    - Cor “Amarela”: `#FFB703`
+    - Cor “Branca”: `#FFFFFF`
+*/
+
+body {
+  position: relative;
+  width: 1200px;
+  height: 655px;
+
+  background: linear-gradient(180deg, #023047 0%, #000000 100%);
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.logoHome {
+  position: absolute;
+  width: 300px;
+  height: 40.59px;
+  left: 84px;
+  top: 80px;
+}
+
+.homeTitulo {
+  position: absolute;
+  width: 358px;
+  height: 42px;
+  left: 520px;
+  top: 200px;
+
+
+}
+
+.homeFormulario {
+  position: absolute;
+  left: 437px;
+  top: 333px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  position: absolute;
+  color: #FFFFFF;
+}
+
+.homeFormulario button {
+  position: absolute;
+  width: 274px;
+  height: 50px;
+  left: 137px;
+  top: 220px;
+  background-color: transparent;
+  border-color: #FFB703;
+  color: #FFB703;
+}
+
+.homeFormulario #nomeArtista {
+  color: #828282;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  width: 500px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.homeFormulario #nomeMusica {
+  color: #828282;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  width: 500px;
+
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.ultimasBuscas {
+  position: absolute;
+  width: 219px;
+  height: 25px;
+  left: 884px;
+  top: 90px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+
+  text-decoration: none;
+  color: #FFB703;
+}
+
+/*tela  iPad 768x1024*/
+@media only screen and (max-width : 768px) {
+  body {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+
+    background: linear-gradient(180deg, #023047 0%, #000000 100%);
+  }
+
+  .logoHome {
+    left: 250px;
+    top: 100px;
+  }
+
+  .ultimasBuscas {
+    left: 300px;
+    top: 225px;
+  }
+
+  .homeTitulo {
+    left: 235px;
+    top: 300px;
+  }
+
+  .homeFormulario {
+    left: 150px;
+    top: 450px;
+  }
+
+}

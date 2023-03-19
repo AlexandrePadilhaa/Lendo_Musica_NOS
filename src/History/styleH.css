@@ -1,0 +1,98 @@
+
+.historico {
+  font-family: 'Open Sans';
+  font-style: normal;
+  text-align: center;
+  height: 1000px;
+  width: 1350px;
+}
+
+.historico #logoH {
+  position: absolute;
+  left: 84px;
+  top: 80px;
+}
+
+.historico #tituloH {
+  position: absolute;
+  left: 520px;
+  top: 200px;
+}
+
+#limparHistorico {
+  position: absolute;
+  left: 884px;
+  top: 90px;
+  color: rgb(255, 255, 255);
+}
+
+#elementosHistorico {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFB703;
+
+  position: relative;
+  width: 350px;
+  height: 50px;
+  border: 1px solid #FFB703;
+  border-radius: 4px;
+  text-align: center;
+
+  left: 420px;
+  top: 300px;
+}
+
+.historico #botaoH {
+  font-family: 'Open Sans';
+  font-style: large;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #FFB703;
+  color: #FFB703;
+  width: 350px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  left: -80px;
+  top: 330px;
+}
+
+@media only screen and (max-width : 768px) {
+  .historico {
+    width: 768px;
+  }
+
+  .historico #logoH {
+    position: absolute;
+    left: 250px;
+    top: 80px;
+  }
+
+  .historico #tituloH {
+    position: absolute;
+    left: 350px;
+    top: 200px;
+  }
+
+  #limparHistorico {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+  }
+
+  #elementosHistorico {
+    position: relative;
+    left: 240px;
+    top: 300px;
+  }
+
+  .historico #botaoH {
+    left: 30px;
+    top: 300px;
+  }
+
+}

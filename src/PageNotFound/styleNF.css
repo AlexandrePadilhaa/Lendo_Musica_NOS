@@ -1,0 +1,80 @@
+.pagNotFound {
+  font-family: 'Open Sans';
+  font-style: large;
+  text-align: center;
+}
+
+.pagNotFound #logo {
+  position: relative;
+  top: 60px;
+}
+
+.pagNotFound #titulo {
+  position: relative;
+  top: 80px;
+}
+
+.pagNotFound #meninaSofa {
+  position: relative;
+  top: 100px;
+}
+
+.pagNotFound #mensagem {
+  position: relative;
+  top: 130px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.pagNotFound #botaoNovaBusca {
+  background-color: transparent;
+  border: 1px solid #FFB703;
+  color: #FFB703;
+  width: 350px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+
+  position: relative;
+  top: 150px;
+}
+
+
+@media only screen and (max-width : 768px) {
+  .body {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+  }
+
+  .pagNotFound #logo {
+    position: relative;
+    top: 50px;
+  }
+
+  .pagNotFound #titulo {
+    position: relative;
+    top: 120px;
+  }
+
+  .pagNotFound #meninaSofa {
+    position: relative;
+    top: 180px;
+  }
+
+  .pagNotFound #mensagem {
+    position: relative;
+    top: 200px;
+
+  }
+
+  .pagNotFound #botaoNovaBusca {
+    position: relative;
+    top: 250px;
+  }
+
+
+}
