@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import logoAzul from '../images/LogoAzul.svg';
 import seta from '../images/Seta.svg';
-import Botao from '../componentes/Botao';
 import lupa from '../images/LupaBranca.svg';
 import './/styleMP.css'
 
@@ -39,9 +38,9 @@ function MusicPage() {
       {exbirLetra()}
 
       <h2 id="fraseMP">Curtiu? busque mais letras.</h2>
-
      
-      <Botao ident='botaoMP' texto = 'Nova Busca'/>
+      <button id="botaoMP" onClick={novaBusca}> <img src={lupa}></img>Nova Busca</button>
+      <br></br>
 
     </body>)
 

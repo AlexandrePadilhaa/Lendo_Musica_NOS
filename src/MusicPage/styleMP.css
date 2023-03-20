@@ -2,9 +2,10 @@
     position: absolute;
     width: 100vw;
     height: fit-content;
-
+    height: 100%;
+    display: block;
+    overflow: auto;
     background: white;
-
     font-family: 'Open Sans';
     font-style: large;
 
@@ -44,13 +45,14 @@
     text-align: center;
     position: relative;
     top: 170px;
-
 }
 
 #botaoMP {
     background-color: #219EBC;
     color: #ffffff;
-    border-bottom: #ffffff;
+    border-bottom: transparent;
+    margin-bottom: 200px;
+    border-radius: 4px;
 
     position: relative;
     top: 180px;
